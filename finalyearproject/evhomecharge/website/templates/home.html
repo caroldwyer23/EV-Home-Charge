@@ -1,0 +1,343 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>EV Home Charge </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons-->
+
+<link rel="{% static 'website/assets/img/apple-touch-icon' %}" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="{% static 'website/assets/img//favicon-32x32.png' %}">
+<link rel="icon" type="image/png" sizes="16x16" href="{% static 'website/assets/img//favicon-16x16.png' %}">
+<link rel="manifest" href="{% static 'website/assets/img/site.webmanifest'%}">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'website/assets/vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static 'website/assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'website/assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'website/assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'website/assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'website/assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'website/assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'website/assets/css/style.css' %}" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="home.html"><span>EV Home Charge</span></a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="" href="home.html">Home</a></li>
+          <li><a href="signin.html">Sign In</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="findaninstaller.html">Find an Installer</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="calendar.html">Calendar</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex justify-cntent-center align-items-center">
+    <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>EV Home Charge</span></h2>
+          <p class="animate__animated animate__fadeInUp">Search available charge points in your area and say goodbye to range anxiety.</p>
+          <a href="register.html" class="btn-get-started animate__animated animate__fadeInUp">Start Searching</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Rent Your Charging Point </h2>
+          <p class="animate__animated animate__fadeInUp">Sign up for free to rent your electric vehicle charger to ev enthusiasts in your local community.</p>
+          <a href="register.html" class="btn-get-started animate__animated animate__fadeInUp">Sign Up as a Provider</a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Services Section ======= -->
+    <section class="services">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="icon-box icon-box-pink">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">How Does It Work?</a></h4>
+              <p class="description">Register for a free account and add your details, it couldnt be easier...</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box icon-box-cyan">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">Register as a user or provider...or both!</a></h4>
+              <p class="description">Whether you want to search for a charging point or you would like to advertise your charger for hire, you can do so all in one place.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-green">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">How Do I Find A Charger?</a></h4>
+              <p class="description">Simply log in to you account, search the area where you want to charge you electric vehicle and submitt a request for a chargepoint. The provider will respond to confirm your booking.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-blue">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">How Do I Pay?</a></h4>
+              <p class="description">Once you have been accepted by the charger provider, you will have the option to pay through your paypal account.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 video-box">
+            <img src="{% static 'website/assets/img/country-01.jpg' %}" class="img-fluid" alt="">
+            <a href="https://www.youtube.com/watch?v=VWqdqQGc7-A" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-fingerprint"></i></div>
+              <h4 class="title"><a href="">Electric Vehicle Users</a></h4>
+              <p class="description">Sign up for a free membership to get access to a selection of charging points that are available for hire over the 32 counties in Ireland.</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-gift"></i></div>
+              <h4 class="title"><a href="">Charging Point Vendor</a></h4>
+              <p class="description">Becoming a ev charge point vendor is quick, easy and free.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section class="features">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Features</h2>
+          <p>Renting out your electric vehicle charge point can help fellow electric vehicle owners in your community, but it is also an oppertunity to make a little extra money on the side. </p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5">
+            <img src="{% static 'website/assets/img/best-04.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-4">
+            <h3>Connect with other electric vehicle users in your locality.</h3>
+            <p class="fst-italic">
+              The rental process is been simple and hassle-free, and you will have the chance to connect with other electric vehicle enthusiasts in your area. Sharing your EV charge point can help build community among EV owners. 
+            </p>
+            <ul>
+              <li><i class="bi bi-check"></i> The rental process is been simple and hassle-free, and you will have the chance to connect with other electric vehicle enthusiasts in your area..</li>
+              <li><i class="bi bi-check"></i> By connecting with others who share your interest in sustainable transportation, you can learn from each other, share tips and experiences.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5 order-1 order-md-2">
+            <img src="{% static 'website/assets/img/charge2.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5 order-2 order-md-1">
+            <h3>Range Anxiety Reduction</h3>
+            <p class="fst-italic">
+              Knowing that a charging station is available at to rent locally at a time that suits you can help alleviate range anxiety.
+            </p>
+            <p>
+              Pre-booking an EV charging session can help ensure that a charging station is available when you need it, which can save time and hassle compared to searching for an available charging station. This can also help you plan your trip or schedule, ensuring that you have enough charge to reach your destination or the next charging station on your route.
+            </p>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5">
+            <img src="{% static 'website/assets/img/charge5.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5">
+            <h3>Support EV Adaption</h3>
+            By offering to rent your EV charge point with others, you are helping to support the adoption of EVs by making it easier for others to charge their vehicles. This can contribute to a cleaner and more sustainable transportation future.</p>
+            <ul>
+              <li><i class="bi bi-check"></i> Zero Emission Vehicles Ireland has a target under the Climate Action Plan 2023 to have 30% of our private car fleet switched to electric by 2030 </li>
+              <li><i class="bi bi-check"></i> The Minister for Housing, Local Government and Heritage, Darragh O’Brien, has announced new building regulations that will require Electric Vehicle (EV) recharging infrastructure be installed in new homes to enable future installation of EV recharging points.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5 order-1 order-md-2">
+            <img src="{% static 'website/assets/img/lockcar.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5 order-2 order-md-1">
+            <h3>Cost Saving</h3>
+            <p class="fst-italic">
+              If you charge a fee for using your EV charge point, sharing it can help offset the cost of installation and maintenance. Additionally, if you share the cost of electricity with others, you can reduce your own charging expenses.
+            </p>
+            <p>
+              If you don't use your EV charge point all the time, sharing it with others can help put an underutilized asset to good use. By sharing, you can help others and earn some extra money at the same time.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4>Our Newsletter</h4>
+            <p>Add your email address to receive our monthly newsletter</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="home.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About EV Charging</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="register.html">Register / Sign In</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Find A Charger in Your Area</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Offer Your Charging Point</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="findaninstaller.html">Find A Charger Installer</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              TUDublin <br>
+              Grangegorman, Dublin<br>
+              Ireland<br><br>
+              <strong>Phone:</strong> +353871234567<br>
+              <strong>Email:</strong> info@evhomecharge.com<br>
+            </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>About EV</h3>
+            <p>Charging an electric vehicle at a home charge point in Ireland is a convenient and cost-effective way to keep your EV charged and ready to go. You can enjoy the benefits of electric driving without the hassle of finding a public charging station.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>C17743985</span></strong>. All Rights Reserved
+      </div>
+      
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'website/assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'website/assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'website/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'website/assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'website/assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'website/assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'website/assets/vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'website/assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'website/assets/js/main.js' %}"></script>
+
+</body>
+
+</html>

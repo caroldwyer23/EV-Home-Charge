@@ -1,0 +1,262 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 131.199996948,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/finalyearproject/evhomecharge/evhomecharge"
+	],
+	"file_history":
+	[
+		"/C/finalyearproject/static/website/assets/js/main.js",
+		"/C/finalyearproject/static/website/assets/vendor/php-email-form/validate.js",
+		"/C/finalyearproject/static/website/assets/vendor/isotope-layout/isotope.pkgd.js",
+		"/C/finalyearproject/static/website/assets/scss/_nav.scss",
+		"/C/finalyearproject/static/website/assets/vendor/php-email-form/php-email-form.php",
+		"/C/finalyearproject/evhomecharge/evhomecharge/settings.py",
+		"/C/finalyearproject/evhomecharge/website/views.py",
+		"/C/finalyearproject/evhomecharge/website/urls.py",
+		"/C/finalyearproject/evhomecharge/website/templates/home.html",
+		"/C/finalyearproject/evhomecharge/evhomecharge/urls.py",
+		"/C/moderna/modernasite/website/templates/portfolio.html",
+		"/C/moderna/modernasite/website/templates/portfolio-details.html",
+		"/C/moderna/modernasite/website/templates/blog-single.html",
+		"/C/moderna/modernasite/website/templates/home.html",
+		"/C/moderna/modernasite/website/templates/index.html",
+		"/C/moderna/modernasite/website/templates/index-2.html",
+		"/C/moderna/modernasite/website/templates/about.html",
+		"/C/moderna/modernasite/website/urls.py",
+		"/C/moderna/modernasite/website/views.py",
+		"/C/moderna/modernasite/modernasite/urls.py",
+		"/C/moderna/modernasite/modernasite/settings.py",
+		"/C/moderna/modernasite/website/templates/blog.html",
+		"/C/moderna/modernasite/website/templates/contact.html",
+		"/C/carolswebsite/carolsite/website/urls.py",
+		"/C/carolswebsite/carolsite/website/views.py",
+		"/C/carolswebsite/carolsite/carolsite/wsgi.py",
+		"/C/carolswebsite/carolsite/carolsite/settings.py",
+		"/C/carolswebsite/carolsite/website/templates/contact.html",
+		"/C/carolswebsite/carolsite/static/website/assets/img/bg-masthead.jpg",
+		"/C/carolswebsite/carolsite/static/website/assets/img/bg-showcase-1.jpg",
+		"/C/carolswebsite/carolsite/static/website/assets/img/bg-showcase-3.jpeg",
+		"/C/carolswebsite/carolsite/static/website/assets/img/bg-showcase-2.jpg",
+		"/C/carolswebsite/carolsite/website/__init__.py",
+		"/C/carolswebsite/carolsite/website/templates/home.html",
+		"/C/carolswebsite/carolsite/static/website/css/styles.css",
+		"/C/carolswebsite/carolsite/carolsite/urls.py",
+		"/C/baker/bakersite/bakersite/settings.py",
+		"/C/baker/bakersite/bakersite/urls.py",
+		"/C/baker/bakersite/website/views.py",
+		"/C/baker/bakersite/website/templates/home.html",
+		"/C/baker/bakersite/website/urls.py",
+		"/C/baker/bakersite/bakersite/asgi.py",
+		"/C/mybootstrap/myproject/website/urls.py",
+		"/C/mybootstrap/myproject/website/views.py",
+		"/C/mybootstrap/myproject/website/templates/home.html",
+		"/C/mybootstrap/myproject/myproject/settings.py",
+		"/C/mybootstrap/myproject/myproject/urls.py",
+		"/C/EVHOMECHARGER/EVHOMECHARGE/evwebsite/templates/home.html",
+		"/C/EVHOMECHARGER/EVHOMECHARGE/static/evwebsite/assets/img/about-1.jpg",
+		"/C/EVHOMECHARGER/EVHOMECHARGE/static/evwebsite/assets/css/style.css",
+		"/C/arsha/arsha/website/templates/inner-page.html",
+		"/C/arsha/arsha/website/templates/home.html",
+		"/C/arsha/arsha/static/website/assets/js/main.js",
+		"/C/arsha/arsha/static/website/assets/css/style.css",
+		"/C/arsha/arsha/website/urls.py",
+		"/C/arsha/arsha/arsha/urls.py",
+		"/C/arsha/arsha/website/views.py",
+		"/C/arsha/arsha/arsha/settings.py",
+		"/C/arsha/arsha/arsha/wsgi.py",
+		"/C/Users/carol/OneDrive/Desktop/Arsha.zip",
+		"/C/electricvehicle/evsite/website/templates/home.html",
+		"/C/electricvehicle/evsite/website/views.py",
+		"/C/electricvehicle/evsite/website/urls.py",
+		"/C/electricvehicle/evsite/evsite/urls.py",
+		"/C/electricvehicle/evsite/evsite/settings.py",
+		"/C/electricvehicle/evsite/evsite/wsgi.py",
+		"/C/electricvehicle/evsite/evsite/asgi.py",
+		"/C/electricvehicle/evsite/static/website/assets/css/style.css",
+		"/C/electricvehicle/evsite/static/website/assets/vendor/bootstrap/css/bootstrap-grid.css",
+		"/C/electricvehicle/evsite/static/website/assets/vendor/bootstrap/css/bootstrap-reboot.css",
+		"/C/electricvehicle/evsite/static/website/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css",
+		"/C/electricvehicle/evsite/static/website/assets/js/main.js",
+		"/C/electricvehicle/evsite/website/urls",
+		"/C/EVHOMECHARGER/EVHOMECHARGE/EVHOMECHARGE/settings.py",
+		"/C/EVHOMECHARGER/EVHOMECHARGE/evwebsite/views.py",
+		"/C/EVHOMECHARGER/EVHOMECHARGE/evwebsite/urls.py",
+		"/C/EVHOMECHARGER/EVHOMECHARGE/evwebsite/templates",
+		"/C/EVHOMECHARGER/EVHOMECHARGE/EVHOMECHARGE/urls.py",
+		"/C/dentistsite/dentist/static/website/js/main.js",
+		"/C/dentistsite/dentist/website/templates/home.html",
+		"/C/dentistsite/dentist/website/EVHOMECHARGER",
+		"/C/dentistsite/dentist/static/website/css/main.css",
+		"/C/dentistsite/dentist/static/website/scss/Readme.txt",
+		"/C/dentistsite/dentist/static/website/img/apple-touch-icon.png",
+		"/C/dentistsite/dentist/static/website/img/breadcrumbs-bg.jpg",
+		"/C/dentistsite/dentist/dentist/settings.py",
+		"/C/Program Files/Sublime Text 3/home.html",
+		"/C/Program Files/Sublime Text 3/templates",
+		"/C/dentistsite/dentist/website/home.html",
+		"/C/dentistsite/dentist/dentist/urls.py",
+		"/C/dentistsite/dentist/website/templates",
+		"/C/dentistsite/dentist/website/urls.py"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 50.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ev.sublime-project",
+	"replace":
+	{
+		"height": 96.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
